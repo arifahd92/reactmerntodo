@@ -1,0 +1,196 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(235, 193, 86);
+   
+  }
+  h2,
+  h1 {
+    background-color: #555;
+    color: aqua;
+    text-align: center;
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+    padding-top: 10px;
+  }
+  div{
+    
+     justify-content: center;  
+  }
+  button {
+  
+    background-color: rgb(118, 118, 160);
+    width: 20vw;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+ color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+   padding: 0%;
+   margin: 30px;
+   
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: black;
+   
+  }
+  .fgtbtn{
+    width: 20vw ;
+  }
+  .main{
+    margin: 50px;
+  }
+  .logbtn{
+    background-color: rgb(118, 118, 160);
+    color: white;
+   
+  }
+
+  .btn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  button:hover {
+    background-color: salmon;
+  }
+  
+  input {
+   
+
+    width: 56vw;
+    height: 6vh;
+    padding: 12px;
+  
+    box-sizing: border-box;
+    border-bottom: 3px solid #555;
+    
+    outline: none;
+    cursor: pointer;
+
+  }
+
+  input:focus {
+    background-color:rgb(235, 193, 86);
+  }
+
+
+  p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(10, 9, 9);
+    margin: 3px;
+    width: 45vw;
+    height: 6vh;
+    background-color: #555;
+    color: aqua;
+
+  }
+  .dlt{
+    margin: 3px;
+    width: 70px;
+    height: 6vh;
+    background-color: rgb(228, 59, 59);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    /* font-size: x-large; */
+    font-size: 25px;
+  }
+  .edt{
+    margin: 3px;
+    width: 70px;
+    height: 6vh;
+    background-color: darkcyan;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  
+    
+  }
+  img{
+    width: 5vw;
+    height: 6vh;
+  }
+  .fgt{
+    color: blue;
+    cursor: pointer;
+  }
+  label{
+    margin-top: 30px;
+  }
+  .todobtn{
+    box-sizing: border-box;
+    display: flex;
+    width: 100px;
+    height: 43px;
+    background-color: darkcyan;
+    margin-bottom: 41px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #555;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+   
+    
+  }
+  .todoinpt{
+    width:49vw;
+    margin-bottom: 40px;
+  }
+  @media screen and (max-width: 1000px) {
+    * {
+      font-size: 20px;
+    }
+    .dlt,.edt{
+      width: 70px;
+      height: 45px;
+    }
+  }
+
+@media screen and (max-width: 700px) {
+
+  .fgt{
+    font-size: 15px;
+    color: blue;
+    cursor: pointer;
+  }
+.btn{
+flex-wrap: wrap;
+    
+  }
+  button{
+    width: 20vw;
+  }
+  .fgtbtn{
+   
+
+    width:25vw;
+  }
+
+}
+@media screen and (max-width: 424px) {
+  button{
+    width: 50vw;
+  }
+  .fgtbtn{
+    font-size: 12px;
+    font-weight:bold;
+    width:30vw;
+  }
+}
